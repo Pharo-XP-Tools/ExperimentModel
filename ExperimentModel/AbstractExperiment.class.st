@@ -58,7 +58,7 @@ AbstractExperiment >> intrumenter: aTExperimentInstrumenter [
 
 { #category : 'configuration' }
 AbstractExperiment >> newLogger [
-	^(self class environment at: #DSEventRecorderLogger) new
+	^(self class environment at: #EMEventRecorderLogger) new
 ]
 
 { #category : 'configuration' }
