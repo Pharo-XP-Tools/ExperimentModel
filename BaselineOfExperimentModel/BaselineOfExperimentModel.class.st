@@ -10,7 +10,7 @@ BaselineOfExperimentModel >> baseline: spec [
 
 	<baseline>
 	
-	spec baseline: 'DSSpyEventRecorder' with: [ 
+	spec baseline: 'ExperimentModelEventRecorder' with: [ 
 		spec repository:
 			'github://Julesboul/DebuggingSpy-EventRecorder:P12' ].
 
