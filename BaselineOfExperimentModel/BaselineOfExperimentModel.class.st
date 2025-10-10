@@ -12,7 +12,7 @@ BaselineOfExperimentModel >> baseline: spec [
 	
 	spec baseline: 'DSSpyEventRecorder' with: [ 
 		spec repository:
-			'github://Julesboul/EventRecorder:main' ].
+			'github://Julesboul/DebuggingSpy-EventRecorder:P12' ].
 
 	spec for: #common do: [ 
 		spec package: 'ExperimentModel' ]
