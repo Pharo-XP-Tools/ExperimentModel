@@ -9,10 +9,6 @@ Class {
 BaselineOfExperimentModel >> baseline: spec [
 
 	<baseline>
-	
-	spec baseline: 'ExperimentModelEventRecorder' with: [ 
-		spec repository:
-			'github://Julesboul/DebuggingSpy-EventRecorder:P12' ].
 
 	spec for: #common do: [ 
 		spec package: 'ExperimentModel' ]
