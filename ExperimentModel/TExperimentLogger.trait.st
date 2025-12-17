@@ -2,37 +2,37 @@
 Common API for DSSpy surveys
 "
 Trait {
-	#name : 'TLogger',
+	#name : 'TExperimentLogger',
 	#category : 'ExperimentModel',
 	#package : 'ExperimentModel'
 }
 
 { #category : 'logging' }
-TLogger >> log: aDSEventRecord [
+TExperimentLogger >> log: aDSEventRecord [
 
 	self explicitRequirement 
 ]
 
 { #category : 'initialization' }
-TLogger >> reset [
+TExperimentLogger >> reset [
 
 	self explicitRequirement 
 ]
 
 { #category : 'setup' }
-TLogger >> setupLoggerAfterSurvey: aSurvey [
+TExperimentLogger >> setupLoggerAfterSurvey: aSurvey [
 
 	self explicitRequirement 
 ]
 
 { #category : 'setup' }
-TLogger >> setupLoggerBeforeSurvey: aSurvey [
+TExperimentLogger >> setupLoggerBeforeSurvey: aSurvey [
 
 	self explicitRequirement "self forceLoggingFileNameFor: aTask."
 ]
 
 { #category : 'setup' }
-TLogger >> setupLoggerForTask: aTask [
+TExperimentLogger >> setupLoggerForTask: aTask [
 
 	self explicitRequirement 
 ]

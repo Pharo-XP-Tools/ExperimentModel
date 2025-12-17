@@ -13,8 +13,8 @@ Server-side, the data will be stored in a directory such as:
 Class {
 	#name : 'EMEventRecorderLogger',
 	#superclass : 'Object',
-	#traits : 'TLogger',
-	#classTraits : 'TLogger classTrait',
+	#traits : 'TExperimentLogger',
+	#classTraits : 'TExperimentLogger classTrait',
 	#instVars : [
 		'currentExperiment',
 		'currentTask',
