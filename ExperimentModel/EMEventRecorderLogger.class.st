@@ -55,7 +55,7 @@ EMEventRecorderLogger >> deliverDataNow [
 EMEventRecorderLogger >> initialize [
 	EREventRecorder reset.
 	PXEventRecorder reset.
-	EREventRecorderSettings url: 'https://rmod-xp.lille.inria.fr/'
+	EREventRecorderSettings url: 'https://rmod-xp.lille.inria.fr/complishon'
 ]
 
 { #category : 'logging' }
@@ -67,8 +67,8 @@ EMEventRecorderLogger >> log: aDSEventRecord [
 { #category : 'collectors' }
 EMEventRecorderLogger >> newCollector [
 	collector := PXEventCollector new.
-	collector category: projectName.
-	collector experienceId: currentExperiment experienceId.
+	collector category: 'complishon'.
+	collector experienceId: 'complishon'.
 	collector participantUUID: participantUUID.
 	collector occupant: nil.
 	collector register.

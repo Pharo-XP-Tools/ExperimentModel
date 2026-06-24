@@ -30,11 +30,11 @@ AbstractExperiment >> configureExperiment [
 		concreteLogger projectName: projectName.
 		
 		self flag: 'configure the logger'.
-		concreteLogger participantUUID: instrumenter uuid.
-		instrumenter logger: concreteLogger.
+	"	concreteLogger participantUUID: instrumenter uuid."
+		"instrumenter logger: concreteLogger."
 		
 		self flag: 'configure the instrumentation'.
-		instrumenter instrumentSystem.
+		"instrumenter instrumentSystem."
 
 		concreteLogger authorizeDataSending.
 		 ]
@@ -42,7 +42,7 @@ AbstractExperiment >> configureExperiment [
 
 { #category : 'accessing' }
 AbstractExperiment >> experienceId [ 
-	^'completion'
+	^'complishon'
 ]
 
 { #category : 'accessing' }
